@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32504414-c0ae-4007-b478-5ebd92ce7ab8" name="Default" comment="" />
+    <list default="true" id="32504414-c0ae-4007-b478-5ebd92ce7ab8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agregarUsuarios.php" afterPath="$PROJECT_DIR$/agregarUsuarios.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/listaUsuarios.php" afterPath="$PROJECT_DIR$/listaUsuarios.php" />
+    </list>
     <ignored path="HelpDesk.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,7 +29,7 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
+            <state relative-caret-position="850">
               <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
               <folding />
             </state>
@@ -55,33 +59,9 @@
       <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="374">
               <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editarPermiso.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editarPermiso.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-              <folding>
-                <marker date="1477807911471" expanded="true" signature="575:718" placeholder="UPDATE permi... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eliminarPermiso.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eliminarPermiso.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-              <folding>
-                <marker date="1477807881888" expanded="true" signature="154:210" placeholder="DELETE FROM " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -99,32 +79,57 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="2703">
               <caret line="159" column="47" selection-start-line="159" selection-start-column="47" selection-end-line="159" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listaPermiso.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="listaPermiso.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/listaPermiso.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1207">
+            <state relative-caret-position="17">
               <caret line="67" column="44" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
               <folding>
-                <marker date="1477808119866" expanded="true" signature="72:253" placeholder="select p.id_... permiso" />
-                <marker date="1477808119866" expanded="true" signature="2311:2492" placeholder="select p.id_... permiso" />
+                <marker date="1477809310265" expanded="true" signature="72:253" placeholder="select p.id_... permiso" />
+                <marker date="1477809310265" expanded="true" signature="2311:2492" placeholder="select p.id_... permiso" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controladorAdmin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controladorAdmin.php">
+      <file leaf-file-name="agregarUsuarios.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/agregarUsuarios.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eliminarUsuario.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eliminarUsuario.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
+              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+              <folding>
+                <marker date="1477807869693" expanded="true" signature="154:206" placeholder="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listaUsuarios.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/listaUsuarios.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+              <folding>
+                <marker date="1477817291716" expanded="true" signature="72:190" placeholder="select u.idu... usuario" />
+                <marker date="1477817291716" expanded="true" signature="2226:2344" placeholder="select u.idu... usuario" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,14 +160,12 @@
         <option value="$PROJECT_DIR$/js/jquery.validate.min.js" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/js/scripts/admin.js" />
-        <option value="$PROJECT_DIR$/agregarUsuarios.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/admin.php" />
         <option value="$PROJECT_DIR$/user.php" />
         <option value="$PROJECT_DIR$/autenticar.php" />
         <option value="$PROJECT_DIR$/permisoObtenerLista.php" />
         <option value="$PROJECT_DIR$/listaRoles.php" />
-        <option value="$PROJECT_DIR$/listaUsuarios.php" />
         <option value="$PROJECT_DIR$/funciones.php" />
         <option value="$PROJECT_DIR$/eliminarUsuario.php" />
         <option value="$PROJECT_DIR$/eliminarRol.php" />
@@ -174,6 +177,8 @@
         <option value="$PROJECT_DIR$/agregarRolBase.php" />
         <option value="$PROJECT_DIR$/agregarUsuarioBase.php" />
         <option value="$PROJECT_DIR$/listaPermiso.php" />
+        <option value="$PROJECT_DIR$/agregarUsuarios.php" />
+        <option value="$PROJECT_DIR$/listaUsuarios.php" />
       </list>
     </option>
   </component>
@@ -217,8 +222,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -312,11 +317,12 @@
       <workItem from="1475975907903" duration="15786000" />
       <workItem from="1476054025429" duration="25621000" />
       <workItem from="1477807061567" duration="1324000" />
+      <workItem from="1477817243835" duration="50000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42731000" />
+    <option name="totallyTimeSpent" value="42781000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -331,7 +337,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26096824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -389,6 +395,33 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2703">
+          <caret line="159" column="47" selection-start-line="159" selection-start-column="47" selection-end-line="159" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listaPermiso.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1477809310265" expanded="true" signature="72:253" placeholder="select p.id_... permiso" />
+            <marker date="1477809310265" expanded="true" signature="2311:2492" placeholder="select p.id_... permiso" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controladorAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
@@ -401,7 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -426,8 +458,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1477807758888" expanded="true" signature="72:190" placeholder="select u.idu... usuario" />
-            <marker date="1477807758888" expanded="true" signature="2215:2333" placeholder="select u.idu... usuario" />
+            <marker date="1477817291716" expanded="true" signature="72:190" placeholder="select u.idu... usuario" />
+            <marker date="1477817291716" expanded="true" signature="2226:2344" placeholder="select u.idu... usuario" />
           </folding>
         </state>
       </provider>
@@ -491,7 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -553,7 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="22" column="11" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -571,21 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <marker date="1477807693100" expanded="true" signature="72:114" placeholder="select id_ro... rol" />
-            <marker date="1477807693100" expanded="true" signature="1902:1955" placeholder="select u.id_... rol" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listaUsuarios.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="82" column="41" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="41" />
-          <folding>
-            <marker date="1477807758888" expanded="true" signature="72:190" placeholder="select u.idu... usuario" />
-            <marker date="1477807758888" expanded="true" signature="2215:2333" placeholder="select u.idu... usuario" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -593,9 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding>
-            <marker date="1477807856456" expanded="true" signature="175:208" placeholder="SELECT id_ro... rol" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -603,17 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eliminarUsuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-          <folding>
-            <marker date="1477807869693" expanded="true" signature="154:206" placeholder="DELETE FROM " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -621,9 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-          <folding>
-            <marker date="1477807875737" expanded="true" signature="153:200" placeholder="DELETE FROM " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -659,7 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2584">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,7 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1836">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,14 +697,6 @@
             <marker date="1477807979070" expanded="true" signature="279:339" placeholder="SELECT nom_u... usuario" />
             <marker date="1477807979070" expanded="true" signature="782:908" placeholder="INSERT INTO usuario... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agregarUsuarios.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -750,7 +738,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
+        <state relative-caret-position="850">
           <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
           <folding />
         </state>
@@ -774,7 +762,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="374">
           <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
           <folding />
         </state>
@@ -782,7 +770,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="2703">
           <caret line="159" column="47" selection-start-line="159" selection-start-column="47" selection-end-line="159" selection-end-column="47" />
           <folding />
         </state>
@@ -790,11 +778,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/listaPermiso.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1207">
+        <state relative-caret-position="17">
           <caret line="67" column="44" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
           <folding>
-            <marker date="1477808119866" expanded="true" signature="72:253" placeholder="select p.id_... permiso" />
-            <marker date="1477808119866" expanded="true" signature="2311:2492" placeholder="select p.id_... permiso" />
+            <marker date="1477809310265" expanded="true" signature="72:253" placeholder="select p.id_... permiso" />
+            <marker date="1477809310265" expanded="true" signature="2311:2492" placeholder="select p.id_... permiso" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agregarUsuarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eliminarUsuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+          <folding>
+            <marker date="1477807869693" expanded="true" signature="154:206" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listaUsuarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <folding>
+            <marker date="1477817291716" expanded="true" signature="72:190" placeholder="select u.idu... usuario" />
+            <marker date="1477817291716" expanded="true" signature="2226:2344" placeholder="select u.idu... usuario" />
           </folding>
         </state>
       </provider>
