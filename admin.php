@@ -65,7 +65,7 @@
                 <a href="index.html"><i class="fa fa-institution"></i> <span class="nav-label">Areas</span> <span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li class=""><a href="" id="listaroles">Listado Areas</a></li>
-                    <li class=""><a href="" id="creaRol">Agregar Area</a></li>
+                    <li class=""><a href="" id="creaRol">Agregar Area Rol</a></li>
                 </ul>
             </li>
 
