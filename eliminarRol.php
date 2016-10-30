@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['idEliminar']))
 {
-    $con = new mysqli("localhost", "root", "123456","helpdesk");
+    $con = new mysqli("localhost", "root", "root","helpdesk");
     $roldelete = $_POST['idEliminar'];
     $qr = "DELETE FROM rol WHERE id_rol = '".$roldelete."'";
 

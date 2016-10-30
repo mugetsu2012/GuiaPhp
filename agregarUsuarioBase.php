@@ -2,7 +2,7 @@
 if(isset($_POST['nombres']) && isset($_POST['apellidos']) && isset($_POST['nUser']) &&
     isset($_POST['contra']) && isset($_POST['grupo']))
 {
-    $con = new mysqli("localhost", "root", "123456","helpdesk");
+    $con = new mysqli("localhost", "root", "root","helpdesk");
 
     $roles = array();
     $nombreU = $_POST['nUser'];

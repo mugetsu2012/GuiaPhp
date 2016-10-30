@@ -1,7 +1,7 @@
 <?php
 session_start();
 //Conectando a base de datos
-$con = new mysqli("localhost", "root", "123456","helpdesk");
+$con = new mysqli("localhost", "root", "root","helpdesk");
 
 $qr  = "SELECT u.nom_user, u.passwd, u.nombres, u.apellidos,u.id_rol,r.descripion ";
 $qr .= "FROM usuario as u join rol as r on r.id_rol=u.id_rol WHERE nom_user = '" . $_POST['usuario'] . "'";

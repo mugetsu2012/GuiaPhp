@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['nomrol']) && isset($_POST['descrip']))
 {
-    $con = new mysqli("localhost", "root", "123456","helpdesk");
+    $con = new mysqli("localhost", "root", "root","helpdesk");
 
     $roles = array();
     $nombreR = $_POST['nomrol'];

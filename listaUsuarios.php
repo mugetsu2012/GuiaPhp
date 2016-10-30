@@ -1,5 +1,5 @@
 <?php
-$con = new mysqli("localhost", "root", "123456","helpdesk");
+$con = new mysqli("localhost", "root", "root","helpdesk");
 $qr = "select u.iduser, u.nombres, u.apellidos,u.nom_user,r.descripion from usuario as u
 join rol as r on u.id_rol = r.id_rol";
 
@@ -65,7 +65,7 @@ $totalResults = $resultado->num_rows;
 </div>
 
 <?php
-$con = new mysqli("localhost", "root", "123456","helpdesk");
+$con = new mysqli("localhost", "root", "root","helpdesk");
 $qr = "select u.iduser, u.nombres, u.apellidos,u.nom_user,r.descripion from usuario as u
 join rol as r on u.id_rol = r.id_rol";
 

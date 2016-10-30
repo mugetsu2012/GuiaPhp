@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['idEliminar']))
 {
-    $con = new mysqli("localhost", "root", "123456","helpdesk");
+    $con = new mysqli("localhost", "root", "root","helpdesk");
     $userDelete = $_POST['idEliminar'];
     $qr = "DELETE FROM usuario WHERE iduser = '".$userDelete."'";
 

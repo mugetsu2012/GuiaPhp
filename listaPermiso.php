@@ -1,5 +1,5 @@
 <?php
-$con = new mysqli("localhost", "root", "123456","helpdesk");
+$con = new mysqli("localhost", "root", "root","helpdesk");
 $qr = "select p.id_permiso, p.nombre_permiso,  p.descrip_permiso,r.nombre,a.nombre_accion from permiso as p
 join rol as r on p.id_rol = r.id_rol join accion as a on p.id_accion=a.id_accion";
 
@@ -65,7 +65,7 @@ $totalResults = $resultado->num_rows;
 </div>
 
 <?php
-$con = new mysqli("localhost", "root", "123456","helpdesk");
+$con = new mysqli("localhost", "root", "root","helpdesk");
 $qr = "select p.id_permiso, p.nombre_permiso,  p.descrip_permiso,r.nombre,a.nombre_accion from permiso as p
 join rol as r on p.id_rol = r.id_rol join accion as a on p.id_accion=a.id_accion";
 $resultado = mysqli_query($con,$qr);

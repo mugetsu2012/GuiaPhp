@@ -1,11 +1,11 @@
 <?php
 if(isset($_POST['nombrep']) && isset($_POST['descrip']) && isset($_POST['idPer']) && isset($_POST['nombrerol']) && isset($_POST['rolito']) && isset($_POST['nombreaccion']) && isset($_POST['acciones']))
 {
-    $con = new mysqli("localhost", "root", "123456","helpdesk");
+    $con = new mysqli("localhost", "root", "root","helpdesk");
     $nombre = $_POST['nombrep'];
     $descrip = $_POST['descrip'];
     $idPermiso = $_POST['idPer'];
-    $rolselect= = $_POST['nombrerol'];
+    $rolselect = $_POST['nombrerol'];
     $rolito=$_POST['rolito'];
     $accion=$_POST['nombreaccion'];
     $accionSelect=$_POST['acciones'];

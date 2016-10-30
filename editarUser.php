@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['nombres']) && isset($_POST['apellidos']) && isset($_POST['idUser']))
 {
-    $con = new mysqli("localhost", "root", "123456","helpdesk");
+    $con = new mysqli("localhost", "root", "root","helpdesk");
     $nombres = $_POST['nombres'];
     $apellidos = $_POST['apellidos'];
     $iduser = $_POST['idUser'];

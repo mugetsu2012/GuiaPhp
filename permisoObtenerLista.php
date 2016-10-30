@@ -8,7 +8,7 @@ if(isset($_GET['opc']))
     if($_GET['opc'] == 1)
     {
 
-        $con = new mysqli("localhost", "root", "123456","helpdesk");
+        $con = new mysqli("localhost", "root", "root","helpdesk");
 
         $roles = array();
         $qr = 'SELECT id_permiso,nombre_permiso FROM permiso';
